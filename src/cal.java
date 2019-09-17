@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+//actualizado
 /**
  *
  * @author alumno
@@ -65,7 +65,7 @@ public class cal extends javax.swing.JFrame {
                 numero7ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 190, 73, 47));
+        getContentPane().add(numero7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 73, 47));
 
         numero8.setText("8");
         numero8.addActionListener(new java.awt.event.ActionListener() {
@@ -73,7 +73,7 @@ public class cal extends javax.swing.JFrame {
                 numero8ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, 73, 47));
+        getContentPane().add(numero8, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, 73, 47));
 
         numero9.setText("9");
         numero9.addActionListener(new java.awt.event.ActionListener() {
@@ -81,7 +81,7 @@ public class cal extends javax.swing.JFrame {
                 numero9ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero9, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 190, 73, 47));
+        getContentPane().add(numero9, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 170, 73, 47));
 
         numero4.setText("4");
         numero4.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +89,7 @@ public class cal extends javax.swing.JFrame {
                 numero4ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 240, 73, 47));
+        getContentPane().add(numero4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 73, 47));
 
         numero5.setText("5");
         numero5.addActionListener(new java.awt.event.ActionListener() {
@@ -97,7 +97,7 @@ public class cal extends javax.swing.JFrame {
                 numero5ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 240, 73, 47));
+        getContentPane().add(numero5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 220, 73, 47));
 
         numero6.setText("6");
         numero6.addActionListener(new java.awt.event.ActionListener() {
@@ -105,7 +105,7 @@ public class cal extends javax.swing.JFrame {
                 numero6ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 73, 47));
+        getContentPane().add(numero6, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, 73, 47));
 
         numero1.setText("1");
         numero1.addActionListener(new java.awt.event.ActionListener() {
@@ -113,7 +113,7 @@ public class cal extends javax.swing.JFrame {
                 numero1ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 290, 73, 47));
+        getContentPane().add(numero1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, 73, 47));
 
         numero2.setText("2");
         numero2.addActionListener(new java.awt.event.ActionListener() {
@@ -121,7 +121,7 @@ public class cal extends javax.swing.JFrame {
                 numero2ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 290, 73, 44));
+        getContentPane().add(numero2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 73, 44));
 
         numero3.setText("3");
         numero3.addActionListener(new java.awt.event.ActionListener() {
@@ -129,7 +129,7 @@ public class cal extends javax.swing.JFrame {
                 numero3ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 290, 73, 47));
+        getContentPane().add(numero3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 270, 73, 47));
 
         numero0.setText("0");
         numero0.addActionListener(new java.awt.event.ActionListener() {
@@ -137,30 +137,55 @@ public class cal extends javax.swing.JFrame {
                 numero0ActionPerformed(evt);
             }
         });
-        getContentPane().add(numero0, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 340, 73, 47));
+        getContentPane().add(numero0, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 320, 73, 47));
 
-        jButton11.setText("Clear");
+        jButton11.setText("C");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton11ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 150, 73, 31));
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 121, 73, 40));
 
         jButton12.setText("÷");
-        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 140, 79, 47));
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 120, 79, 47));
 
         jButton13.setText("x");
-        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 190, 79, 47));
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 170, 79, 47));
 
         jButton14.setText("-");
-        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 240, 79, 47));
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 220, 79, 47));
 
         jButton15.setText("+");
-        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, 79, 47));
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 270, 79, 47));
 
         jButton16.setText("=");
-        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 80, 47));
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 320, 80, 47));
 
         punto0.setText(".");
         punto0.addActionListener(new java.awt.event.ActionListener() {
@@ -168,32 +193,62 @@ public class cal extends javax.swing.JFrame {
                 punto0ActionPerformed(evt);
             }
         });
-        getContentPane().add(punto0, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 340, 72, 47));
+        getContentPane().add(punto0, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 320, 72, 47));
 
-        jButton18.setText("<---");
-        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, -1, 31));
+        jButton18.setText("<-----");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 121, 70, 40));
 
         jButton19.setText("√");
-        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 50, 47));
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 170, 50, 47));
 
         jButton20.setText("x^2");
-        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, -1, 47));
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, -1, 47));
 
         jButton21.setText("x^3");
-        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, -1, 47));
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 270, -1, 47));
 
         jButton22.setText("1/x");
-        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, 50, 47));
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 320, 50, 47));
 
         jButton23.setText("%");
-        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 50, 47));
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 50, 47));
 
         pantalla.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pantallaActionPerformed(evt);
             }
         });
-        getContentPane().add(pantalla, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 387, 63));
+        getContentPane().add(pantalla, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 387, 63));
 
         jButton1.setText("+/-");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -201,7 +256,7 @@ public class cal extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, 70, 50));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 320, 70, 50));
 
         jButton2.setText("x^y");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -209,7 +264,7 @@ public class cal extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 140, 70, 40));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 70, 40));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -301,7 +356,112 @@ public class cal extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        if(!pantalla.getText().equals("")){
+            valor1=pantalla.getText();
+            signo="x^y";
+            pantalla.setText("");
+        }
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+        if(!pantalla.getText().equals("")){
+            valor1=pantalla.getText();
+            signo="+";
+            pantalla.setText("");
+        }
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+       String resultadototal;
+       valor2=pantalla.getText();
+       if(!valor2.equals("")){
+           resultadototal=operaciones(valor1, valor2, signo);
+           pantalla.setText(resultadototal);
+       }
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        // TODO add your handling code here:
+      if(!pantalla.getText().equals("")){
+          valor1=pantalla.getText();
+          signo="-";
+          pantalla.setText("");
+      }
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+        if(!pantalla.getText().equals("")){
+           valor1=pantalla.getText();
+           signo="*";
+           pantalla.setText("");
+        }
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+        if(!pantalla.getText().equals("")){
+            valor1=pantalla.getText();
+            signo="/";
+            pantalla.setText("");
+        }
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        // TODO add your handling code here:
+        contenido=pantalla.getText();
+        if(contenido.length()>0){
+            contenido=contenido.substring(0,contenido.length()-1);
+            pantalla.setText(contenido);
+        }
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        // TODO add your handling code here:
+        contenido=pantalla.getText();
+        if(contenido.length()>0){
+            resultado=Math.sqrt(Double.parseDouble(contenido));
+            pantalla.setText(resultado.toString());
+        }
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        // TODO add your handling code here:
+        contenido=pantalla.getText();
+        if(contenido.length()>0){
+            resultado=1/(Double.parseDouble(contenido));
+            pantalla.setText(resultado.toString());
+        }
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        // TODO add your handling code here:
+            contenido=pantalla.getText();
+        if(contenido.length()>0){
+            resultado=Math.pow(Double.parseDouble(contenido),2);
+            pantalla.setText(resultado.toString());
+        }
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        // TODO add your handling code here:
+        contenido=pantalla.getText();
+        if(contenido.length()>0){
+            resultado=Math.pow(Double.parseDouble(contenido),3);
+            pantalla.setText(resultado.toString());
+        }
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        // TODO add your handling code here:
+        contenido=pantalla.getText();
+        if(contenido.length()>0){
+            resultado=(Double.parseDouble(contenido))/100;
+            pantalla.setText(resultado.toString());
+        }
+    }//GEN-LAST:event_jButton23ActionPerformed
    public static String operaciones(String valor1, String valor2, String signo)
    {
      Double resultadoc=0.0;
